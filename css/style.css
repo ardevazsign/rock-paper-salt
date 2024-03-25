@@ -38,7 +38,7 @@ ul li{
     color: aqua;
 }
 .score-holder{
-    background-color: rgb(16, 0, 0);
+    background-color: royalblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
