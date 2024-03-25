@@ -15,18 +15,15 @@
             </div>
 
         <h1 class="score">Rock, Paper, & Scissors</h1>
-                <h2 id="result"class="result" >"Choose your move now"</h2>
-        <div class="playerMoves" >
-            <button
-            onclick="playGame('rock')"
-            class="btn4 RPS1">Rock</button>
-            <button
-            onclick="playGame('paper')"
-            class="btn4 RPS2">Paper</button>
-            <button
-            onclick="playGame('scissors')"
-            class="btn4 RPS3">Scissors</button>
-        </div >
+
+        <h2 id="result"class="result" >"Choose your move now"</h2>
+
+        <div class="player-computer">
+            <h3 class="scorer">Player Score :</h3>
+            <h4 id="playerScore">0</h4>
+            <h3 class="scorer">Computer Score :</h3>
+            <h4 id="computerScore">0</h4>
+        </div>
 
         <div class="moves">
             <h3 id="playersBeat">Player Choice</h3>
@@ -34,14 +31,19 @@
             <h3 id="computersBeat">Computer Choice</h3>
         </div>
 
-        <div class="player-computer">
-        <h3 class="scorer">Player Score :</h3>
-        <h4 id="playerScore">0</h4> 
-        <h3 class="scorer">Computer Score :</h3>
-        <h4 id="computerScore">0</h4>
-        </div>  
-
         <h1 id="motivate" class="motivate">Keep Playing!!!</h1>
+
+       
+
+      
+
+        <div class="playerMoves">
+            <button onclick="playGame('rock')" class="btn4 RPS1">Rock</button>
+            <button onclick="playGame('paper')" class="btn4 RPS2">Paper</button>
+            <button onclick="playGame('scissors')" class="btn4 RPS3">Scissors</button>
+        </div>
+
+      
 
 
 
