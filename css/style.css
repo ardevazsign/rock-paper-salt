@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+.divProject{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.submit{
+    border-radius: 8px;
+}
+.addProvince{
+    border-radius: 8px;
+    background-color: goldenrod;
+    border: none;
+    padding: 10px 15px 10px 15px;
+}
+.div-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn03{
+    background-color: aqua;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+}
+/* html4 */
+.score{
+    color: aqua;
+}
+.score-holder{
+    background-image: url('/image/1600_263.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn4{
+    margin-right: 40px;
+    padding: 15px 30px;
+    border: none;
+    color: aliceblue;
+    border-radius: 15px;
+}
+.btn4:hover{
+    color: black;
+    background-color: aqua;
+    cursor: pointer;
+}
+.RPS1{
+    background-color: chartreuse;
+    font-size: 18px;
+}
+.RPS2{
+    background-color: darkorange;
+     font-size: 18px;
+
+}
+.RPS3{
+    background-color: gold;
+     font-size: 18px;
+
+}
+
+.playerMoves{
+    margin-top: 20px;
+}
+.player-computer{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 40px;
+}
+.moves{
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+}
+.vs,
+.result{
+    color: lightyellow
+}
+#playersBeat,
+#playerScore{
+    color: white;
+    border-radius: 10px;
+    outline: 3px solid orange;
+    border: 3px solid orange;
+    padding: 10px 20px;
+   
+}
+#computersBeat,
+#computerScore{
+    border-radius: 10px;
+    outline: 3px solid chartreuse;
+    border: 3px solid chartreuse;
+    padding: 10px 20px;
+    color: white;
+}
+.scorer{
+    color: white;
+    border-radius: 10px;
+    outline: 3px solid orange;
+    border: 3px solid orange;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+.logo {
+    gap: 200px;
+    display: flex;
+    color: lime;
+}
